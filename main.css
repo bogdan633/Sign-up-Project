@@ -1,0 +1,126 @@
+:root {
+    --left-space: 48px;
+    --top-space: 10px;
+}
+
+body {
+    margin:0
+}
+
+main {
+    display: flex;
+}
+
+nav {
+    background-image: url("./halie-west-25xggax4bSA-unsplash.jpg");
+    height: 100vh;
+    width: 35vw;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.side-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.373);
+    height: 150px;
+    width: 100%;
+    margin-top:150px;
+}
+
+.side-bar img {
+    height: 140px;
+}
+
+.side-bar h1 {
+    color:white;
+    font-size:6rem;
+    font-family: 'Norse';
+
+}
+
+.photo-author {
+    color:white;
+    font-family: sans-serif;
+}
+
+span {
+    text-decoration: underline;
+}
+
+.container {
+    width: 65vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-section {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding-top:5px;
+    padding-left:var(--left-space);
+    padding-bottom: 25px;
+    margin-top:2%;
+}
+
+.form-section h3 {
+    font-size:1.25rem;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.container h1 {
+    font-size:1.4rem;
+    font-family: sans-serif ;
+    margin-left: var(--left-space);
+}
+
+label {
+    display: block;
+    font-size:0.8rem;
+    font-family: sans-serif;
+    letter-spacing: 0.1rem;
+}
+
+.section {
+    display: flex;
+    gap:20%;
+    margin-bottom: 25px;   
+}
+
+input {
+    border: 1px solid rgb(188, 188, 188);
+    width: 220px;
+    border-radius: 6px;
+    padding:5px;
+}
+
+.create-btn {
+    margin-top:4%;
+    margin-left: var(--left-space);
+    width: 200px;
+    height: 50px;
+    color:white;
+    background-color: #596D48;
+    border:none;
+    border-radius: 5px;
+    font-size:1.2rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.already-en {
+    margin-left: var(--left-space);
+    font-size:1.1rem;
+}
+
+.already-en a {
+    color: #596D48;
+    font-weight: bold;
+    text-decoration: none;
+}
